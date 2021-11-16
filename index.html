@@ -1,30 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raúl Doménech</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>Hello World!</h1>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand" href="#">Raúl Doménech</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <div id="container">
-            <div class="row">
-                <div class="col">
-                    1 of 2
+      <div class="container-fluid">
+        <div class="row">
+            <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/percuaderno.jpeg"
+                  class="card-img-top"
+                  alt="Percuaderno 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="col">
-                    2 of 2
+              </div>
+              <div class="card" style="width: 18rem">
+                  <img
+                    src="./assets/images/percuaderno.jpeg"
+                    class="card-img-top"
+                    alt="Percuaderno 1"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
                 </div>
-            </div>
         </div>
+        
+      </div>
     </main>
-</body>
+
+    <footer>
+
+      <div class="footer-area footer-padding">
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-3 col-lg-3 col-md-8 col-sm-8">
+              <div class="single-footer-caption mb-50">
+                <div class="single-footer-caption mb-30">
+
+                  <div class="footer-logo mb-35">
+                    <a href="/"><span class="h2">Raúl Doménech</span></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Músico, director y compositor valenciano. Desde 2010
+                        escribiendo métodos de aprendizaje para percusión
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="footer-social">
+                    <a href="/"><i class="fab fa-twitter"></i></a>
+                    <a href="/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Libros</h4>
+                  <ul>
+                    <li><a href="#">Libro 1</a></li>
+                    <li><a href="#">Libro 2</a></li>
+                    <li><a href="#">Libro 3</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Libros</h4>
+                  <ul>
+                    <li><a href="#">Libro 1</a></li>
+                    <li><a href="#">Libro 2</a></li>
+                    <li><a href="#">Libro 3</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Libros</h4>
+                  <ul>
+                    <li><a href="#">Libro 1</a></li>
+                    <li><a href="#">Libro 2</a></li>
+                    <li><a href="#">Libro 3</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Contacto</h4>
+                  <ul>
+                    <li><a href="#">600 000 000</a></li>
+                    <li><a href="#">email@email.com</a></li>
+                    <li><a href="#">Moncada, Valencia.</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-12">
+                <div class="footer-copy-right text-center">
+                  <p>
+                    &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    Todos los derechos reservados | Made with 
+                    <i class="fa fa-heart" aria-hidden="true"></i> by
+                    <a href="/" target="_blank">Pau March</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </footer>
+  </body>
 </html>
